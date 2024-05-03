@@ -5,8 +5,8 @@ The goal of this module is to showcase the brand new company "Analytics America"
 skills in the world of consulting and analytics'''
 
 # 2. Import Dependencies-Anything in the standard library is fair game.
+import math
 import statistics
-
 
 # 7. Define Main Function-we can call to test our code and display all information.
 def main():
@@ -20,8 +20,10 @@ def main():
   company_hires_internationally: bool = False
   average_employee_time_worked: float = 10.5
   services_offered: list = [
-      "Data Analysis", "Machine Learning Consulting",
-      "Business Intelligence Solutions", "PowerPoints Full of Transitions"
+      "Data Analytics",
+      "ML Consulting",
+      "BI Solutions",
+      "Slides Full of Transition Effects"
   ]
   count_active_projects: int = 8
   average_contract: float = 4.3
@@ -33,8 +35,10 @@ def main():
   # 4. Define Formatted Strings-create formatted strings for non-string variables.
   company_year_string: str = f"Company Founded: {company_founding_year}"
   company_count_string: str = f"Employee Count: {company_employee_count}"
+  company_options_string: str = f"Employee Options: {company_employee_options}"
   company_hires_string: str = f"Hires Internationally: {company_hires_internationally}"
   company_work_string: str = f"Average Employee Years: {average_employee_time_worked}"
+  services_string: str = f"Services Offered: {services_offered}"
   active_projects_string: str = f"Active Projects: {count_active_projects}"
   average_contract_string: str = f"Average Client Satisfaction: {average_contract}"
   accepts_string: str = f"Accepts International Clients: {accepts_international_clients}"
@@ -68,10 +72,10 @@ def main():
   {company_name}
   {company_year_string}
   {company_count_string}
-  {company_employee_options}
+  {company_options_string}
   {company_hires_string}
   {company_work_string}
-  {services_offered}
+  {services_string}
   {active_projects_string}
   {average_contract_string}
   {accepts_string}
@@ -79,3 +83,6 @@ def main():
   """
 
   print(byline)
+
+if __name__ == '__main__':
+  main()
