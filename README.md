@@ -11,6 +11,8 @@ Objective
 
 Develop a Python module with a byline function displaying information about your data analytics consulting business or analyst profile. The byline should be constructed using various Python data types.
 
+Some fun detail to personalize my project
+
 Used the interweb to figure out my company name. It is still available to be registered if this sparks anyone's interest!
 ![Screenshot 2024-05-02 203153](https://github.com/Bdowdle4/datafun-01-attr/assets/162188958/6229a0dd-c9bb-46f8-a108-2a7c8b7fa2b1)
 
